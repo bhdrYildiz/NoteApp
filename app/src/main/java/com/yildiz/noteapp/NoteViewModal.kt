@@ -7,7 +7,7 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-class NoteViewModel (application: Application) : AndroidViewModel(application) {
+class NoteViewModal (application: Application) : AndroidViewModel(application) {
         val allNotes : LiveData<List<Notes>>
         val repository :NoteRepository
 

@@ -9,6 +9,7 @@
     app:cardBackgroundColor="@color/black_shadow_2">
 
     <RelativeLayout
+        android:id="@+id/rv_Notes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
